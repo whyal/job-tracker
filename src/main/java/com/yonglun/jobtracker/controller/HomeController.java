@@ -1,4 +1,4 @@
-package com.yonglun.webportfolio.controller;
+package com.yonglun.jobtracker.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

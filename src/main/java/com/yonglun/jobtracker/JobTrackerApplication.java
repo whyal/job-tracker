@@ -1,13 +1,13 @@
-package com.yonglun.webportfolio;
+package com.yonglun.jobtracker;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class WebPortfolioApplication {
+public class JobTrackerApplication {
 
     static void main(String[] args) {
-        SpringApplication.run(WebPortfolioApplication.class, args);
+        SpringApplication.run(JobTrackerApplication.class, args);
     }
 
 }

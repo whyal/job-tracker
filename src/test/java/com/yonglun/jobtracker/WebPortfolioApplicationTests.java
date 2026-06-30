@@ -1,4 +1,4 @@
-package com.yonglun.webportfolio;
+package com.yonglun.jobtracker;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

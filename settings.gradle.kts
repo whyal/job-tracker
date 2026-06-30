@@ -1,1 +1,1 @@
-rootProject.name = "web-portfolio"
+rootProject.name = "job-tracker"

@@ -6,7 +6,7 @@ plugins {
 
 group = "com.yonglun"
 version = "0.0.1-SNAPSHOT"
-description = "web-portfolio"
+description = "job-tracker"
 
 java {
     toolchain {
