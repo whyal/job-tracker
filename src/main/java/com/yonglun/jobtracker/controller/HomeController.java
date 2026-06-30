@@ -1,25 +1,24 @@
 package com.yonglun.jobtracker.controller;
 
-import com.yonglun.jobtracker.entity.Job;
-import com.yonglun.jobtracker.repository.JobRepository;
+import com.yonglun.jobtracker.service.JobService;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
 
-import java.util.List;
-
-@RestController
-@RequestMapping("/")
+@Controller
 public class HomeController {
 
-    private final JobRepository repository;
+    private final JobService jobService;
 
-    public HomeController(JobRepository repository) {
-        this.repository = repository;
+    public HomeController(JobService jobService) {
+        this.jobService = jobService;
     }
 
-    @GetMapping
-    public List<Job> getJobs() {
-        return repository.findAll();
+    @GetMapping("/")
+    public String home(Model model) {
+
+        model.addAttribute("jobs", jobService.getAllJobs());
+
+        return "index";
     }
 }
