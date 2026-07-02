@@ -1,7 +1,7 @@
-package com.yonglun.jobtracker.config;
+package com.yonglun.itineraryassistant.config;
 
-import com.yonglun.jobtracker.entity.Job;
-import com.yonglun.jobtracker.repository.JobRepository;
+import com.yonglun.itineraryassistant.entity.Job;
+import com.yonglun.itineraryassistant.repository.JobRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

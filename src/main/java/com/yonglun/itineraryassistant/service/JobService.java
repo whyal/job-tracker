@@ -1,7 +1,7 @@
-package com.yonglun.jobtracker.service;
+package com.yonglun.itineraryassistant.service;
 
-import com.yonglun.jobtracker.entity.Job;
-import com.yonglun.jobtracker.repository.JobRepository;
+import com.yonglun.itineraryassistant.entity.Job;
+import com.yonglun.itineraryassistant.repository.JobRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

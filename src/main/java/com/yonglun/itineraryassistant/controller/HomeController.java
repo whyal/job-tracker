@@ -1,6 +1,6 @@
-package com.yonglun.jobtracker.controller;
+package com.yonglun.itineraryassistant.controller;
 
-import com.yonglun.jobtracker.service.JobService;
+import com.yonglun.itineraryassistant.service.JobService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;

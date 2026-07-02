@@ -1,7 +1,7 @@
-package com.yonglun.jobtracker.repository;
+package com.yonglun.itineraryassistant.repository;
 
 
-import com.yonglun.jobtracker.entity.Job;
+import com.yonglun.itineraryassistant.entity.Job;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface JobRepository extends JpaRepository<Job, Long> {

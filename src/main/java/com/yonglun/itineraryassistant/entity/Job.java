@@ -1,4 +1,4 @@
-package com.yonglun.jobtracker.entity;
+package com.yonglun.itineraryassistant.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
